@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Coke — Style is Non-Negotiable</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Outfit for display, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Premium Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-title">DIET COKE</h1>
+            <p class="preloader-subtitle">Loading the experience</p>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="progress-percentage" id="progress-percentage">0%</div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header">
+        <div class="logo">Diet Coke</div>
+        <nav class="nav-links">
+            <a href="#taste" class="nav-item">Taste</a>
+            <a href="#editorial" class="nav-item">Editorial</a>
+            <a href="#subscribe" class="nav-item">Subscribe</a>
+        </nav>
+        <button class="cta-button">Buy Now</button>
+    </header>
+
+    <!-- Pinned Scroll Animation Section -->
+    <div id="animation-trigger-section">
+        <div class="sticky-viewport">
+            <canvas id="scroll-canvas"></canvas>
+            <div class="canvas-overlay"></div>
+
+            <!-- Scrollable content overlay sections -->
+            <section class="scroll-section active" data-frame-start="0" data-frame-end="40" id="intro">
+                <div class="section-content text-center">
+                    <span class="eyebrow">Style is Non-Negotiable</span>
+                    <h2 class="display-title">The Motion of Taste</h2>
+                    <p class="lead-text">Scroll down to unfold a synchronized visual journey designed to celebrate design and taste.</p>
+                    <div class="scroll-indicator">
+                        <span class="mouse-icon"><span class="wheel"></span></span>
+                        <span class="scroll-text">Scroll to begin</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="scroll-section" data-frame-start="45" data-frame-end="95" id="crave">
+                <div class="section-content left-align">
+                    <div class="glass-card">
+                        <span class="card-badge">01. Desire</span>
+                        <h3 class="section-title">Pure Refinement.</h3>
+                        <p class="body-text">An instantly recognizable look, paired with the exact taste profile that sets the gold standard for refreshment.</p>
+                        <ul class="feature-list">
+                            <li>Signature fizz</li>
+                            <li>Zero calorie lift</li>
+                            <li>Bold, sleek design</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="scroll-section" data-frame-start="100" data-frame-end="150" id="essence">
+                <div class="section-content right-align">
+                    <div class="glass-card">
+                        <span class="card-badge">02. Design</span>
+                        <h3 class="section-title">Artistic Structure</h3>
+                        <p class="body-text">Every angle is sculpted. A silver can accented by red and black graphics, symbolizing high-end taste and elegance.</p>
+                        <div class="metric-row">
+                            <div class="metric-item">
+                                <span class="metric-value">0</span>
+                                <span class="metric-label">Sugars</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-value">100%</span>
+                                <span class="metric-label">Iconic Profile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="scroll-section" data-frame-start="155" data-frame-end="205" id="heritage">
+                <div class="section-content left-align">
+                    <div class="glass-card">
+                        <span class="card-badge">03. Culture</span>
+                        <h3 class="section-title">An Essential Accessory</h3>
+                        <p class="body-text">From the runway to the office, it sits on the desks of creators, builders, and designers as a constant driver of focus.</p>
+                        <a href="#" class="accent-link">Discover the styling guides &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="scroll-section" data-frame-start="210" data-frame-end="240" id="cta">
+                <div class="section-content text-center">
+                    <h2 class="display-title">Ready to Experience?</h2>
+                    <p class="lead-text">Scroll further to explore the style profile, editorial, and subscribe for exclusive drops.</p>
+                    <div class="button-group">
+                        <button class="cta-button large">Find Retailer</button>
+                        <button class="secondary-button">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Static Content Flow -->
+    <div class="static-content-flow">
+        
+        <!-- 1. Features Columns Section -->
+        <section class="static-features" id="taste">
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <span class="feature-icon">
+                        <!-- Star SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </span>
+                </div>
+                <h3>ICONIC TASTE</h3>
+                <p>The unmistakable, crisp profile that defines a generation. Often imitated, never replicated.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <span class="feature-icon">
+                        <!-- Slash/Prohibited Circle SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+                    </span>
+                </div>
+                <h3>ZERO SUGAR</h3>
+                <p>All the thrill, none of the compromise. Zero calories, perfectly balanced for an uncompromising lift.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <span class="feature-icon">
+                        <!-- Snowflake SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line><line x1="4.93" y1="19.07" x2="19.07" y2="4.93"></line></svg>
+                    </span>
+                </div>
+                <h3>SERVED ICE COLD</h3>
+                <p>Engineered to be served ice cold. A sharp, invigorating experience that resets the palate.</p>
+            </div>
+        </section>
+
+        <!-- 2. Brand Editorial Showcase -->
+        <section class="editorial-showcase" id="editorial">
+            <div class="editorial-container">
+                <div class="editorial-card">
+                    <h2>STYLE IS<br>NON-NEGOTIABLE.</h2>
+                    <p>Elevate your everyday. It's more than a beverage; it's an accessory to a life lived boldly and efficiently.</p>
+                    <a href="#" class="editorial-link">EXPLORE EDITORIAL &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Newsletter Subscription -->
+        <section class="newsletter-subscription" id="subscribe">
+            <div class="newsletter-icon-wrapper">
+                <svg class="lightning-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h2>STAY REFRESHED.</h2>
+            <p>Join our community for exclusive updates, drops, and insider access.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+                <input type="email" placeholder="ENTER YOUR EMAIL" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </section>
+
+        <!-- 4. Site Footer -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-logo">Diet Coke</div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2024 The Coca-Cola Company. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
